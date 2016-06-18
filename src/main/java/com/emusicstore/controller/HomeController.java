@@ -13,10 +13,8 @@ import com.emusicstore.model.Product;
 @Controller
 public class HomeController {
 
-	// private ProductDao productDao = new ProductDao();
+	private ProductDao productDao = new ProductDao();
 
-	@Autowired
-	private ProductDao productDao;
 
 	@RequestMapping("/")
 	public String home() {
