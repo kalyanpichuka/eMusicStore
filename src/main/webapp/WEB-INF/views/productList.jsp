@@ -86,6 +86,8 @@
 					<th>Price</th>
 				</tr>			
 			</thead>
+			
+			<c:forEach items="${products}" var="product">
 			<tr>
 					<td><img src="#" alt="image"></td>
 					<td>${product.productName}</td>
@@ -93,6 +95,7 @@
 					<td>${product.productCondition}</td>
 					<td>Rs ${product.productPrice}</td>
 			</tr>
+			</c:forEach>
 			</table>
 
 			<!-- FOOTER -->

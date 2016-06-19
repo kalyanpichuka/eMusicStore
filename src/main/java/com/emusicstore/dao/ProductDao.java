@@ -35,14 +35,16 @@ public class ProductDao {
 		product3.setProductName("Speaker");
 		product3.setProductCategory("Accessory");
 		product3.setProductDescription("This is well designed speaker");
-		product3.setProductPrice(1800);
+		product3.setProductPrice(2000);
 		product3.setProductCondition("New");
 		product3.setProductStatus("Active");
-		product3.setUnitStock(9);
-		product3.setProductManufacturer("Frenda");
+		product3.setUnitStock(27);
+		product3.setProductManufacturer("Amber");
 		
 		productList = new ArrayList<Product>();
 		productList.add(product1);
+		productList.add(product2);
+		productList.add(product3);
 		return productList;
 		
 	}
