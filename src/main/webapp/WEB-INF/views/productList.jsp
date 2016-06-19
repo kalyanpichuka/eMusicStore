@@ -91,7 +91,7 @@
 					<td>${product.productName}</td>
 					<td>${product.productCategory}</td>
 					<td>${product.productCondition}</td>
-					<td>${product.productName}</td>
+					<td>Rs ${product.productPrice}</td>
 			</tr>
 			</table>
 

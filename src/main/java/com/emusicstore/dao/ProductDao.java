@@ -21,6 +21,26 @@ public class ProductDao {
 		product1.setUnitStock(9);
 		product1.setProductManufacturer("Frenda");
 		
+		Product product2 = new Product();
+		product2.setProductName("Record");
+		product2.setProductCategory("Record");
+		product2.setProductDescription("This is an awesome mix of 30th century");
+		product2.setProductPrice(900);
+		product2.setProductCondition("New");
+		product2.setProductStatus("Active");
+		product2.setUnitStock(18);
+		product2.setProductManufacturer("Logo");
+		
+		Product product3 = new Product();
+		product3.setProductName("Speaker");
+		product3.setProductCategory("Accessory");
+		product3.setProductDescription("This is well designed speaker");
+		product3.setProductPrice(1800);
+		product3.setProductCondition("New");
+		product3.setProductStatus("Active");
+		product3.setUnitStock(9);
+		product3.setProductManufacturer("Frenda");
+		
 		productList = new ArrayList<Product>();
 		productList.add(product1);
 		return productList;
